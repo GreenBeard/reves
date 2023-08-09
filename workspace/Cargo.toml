@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+
+members = [
+  "hack",
+  "harness",
+  "reves",
+]
+
+[workspace.lints.rust]
+non_ascii_idents = "warn"
+
+[workspace.lints.clippy]
+collapsible_else_if = "allow"
+implicit_return = "warn"
+implicit_saturating_sub = "allow"
+needless_range_loop = "allow"
+needless_return = "allow"
+non_ascii_literal = "warn"
+str_to_string = "warn"
+string_to_string = "warn"

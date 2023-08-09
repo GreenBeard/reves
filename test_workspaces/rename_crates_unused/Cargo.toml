@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+  "fuchsia",
+  "magenta",
+  "purple",
+]
+
+[workspace.dependencies]
+vache = { path = "fuchsia", package = "fuchsia" }
+lapin = { path = "magenta", package = "magenta" }
+cochon = { path = "purple", package = "purple" }

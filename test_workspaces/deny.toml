@@ -1,0 +1,19 @@
+[licenses]
+allow = [
+    "Apache-2.0",
+    "CC0-1.0",
+    "MIT",
+    "Unicode-DFS-2016",
+]
+default = "deny"
+unlicensed = "deny"
+unused-allowed-license = "allow"
+
+[advisories]
+# This is a library, and as such this is the problem of downstream binaries, we
+# specify minimum compatible versions.
+db-urls = ["https://github.com/GreenBeard/forever-empty"]
+
+[sources]
+allow-registry = []
+unknown-registry = "deny"

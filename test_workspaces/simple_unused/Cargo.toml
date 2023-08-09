@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+  "fuchsia",
+  "magenta",
+  "purple",
+]
+
+[workspace.dependencies]
+fuchsia.path = "fuchsia"
+magenta.path = "magenta"
+purple.path = "purple"

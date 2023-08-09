@@ -1,0 +1,11 @@
+[package]
+name = "lamb"
+version = "1.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0 OR CC0-1.0"
+publish = false
+
+[dev-dependencies]
+# unused
+bunny.workspace = true
+chick.workspace = true

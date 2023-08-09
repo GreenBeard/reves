@@ -1,0 +1,10 @@
+[package]
+name = "lantana"
+version = "1.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0 OR CC0-1.0"
+publish = false
+links = "pimpernel"
+
+[dependencies]
+buttercup.workspace = true

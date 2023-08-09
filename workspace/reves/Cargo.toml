@@ -1,0 +1,23 @@
+[package]
+name = "reves"
+version = "1.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0 OR CC0-1.0"
+publish = false
+# What Debian stable (12) uses which I would like to support.
+rust = "1.63.0"
+
+[dependencies]
+# Keep in sync with ../Cargo.toml
+# Required as we want to support Cargo 1.63
+anyhow = { version = "1.0", features = [ "backtrace" ] }
+camino = "1.1.6"
+cargo_metadata = "0.18.0"
+clap = { version = "4.0.27", features = [ "derive" ] }
+regex = "1.0.0"
+serde = { version = ">= 1.0.126", default-features = false }
+serde_json = "1.0.68"
+toml_edit = "0.19"
+
+[lints]
+workspace = true

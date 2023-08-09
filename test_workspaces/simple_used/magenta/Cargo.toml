@@ -1,0 +1,15 @@
+[package]
+name = "magenta"
+version = "1.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0 OR CC0-1.0"
+publish = false
+
+[dependencies]
+fuchsia.workspace = true
+
+[dev-dependencies]
+purple.workspace = true
+
+[build-dependencies]
+fuchsia.workspace = true

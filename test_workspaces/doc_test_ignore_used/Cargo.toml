@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+  "bunny",
+  "chick",
+  "lamb",
+]
+
+[workspace.dependencies]
+bunny.path = "bunny"
+chick.path = "chick"
+lamb.path = "lamb"

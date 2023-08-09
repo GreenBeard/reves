@@ -1,0 +1,4 @@
+FROM debian:12
+
+COPY ./setup.sh /tmp/setup.sh
+RUN /tmp/setup.sh
