@@ -1,6 +1,7 @@
 # Overview
 
-Detect unused cargo dependencies. This tool is an alternative to `cargo
+Detect unused cargo dependencies (see crate in
+[workspace/reves](workspace/reves)). This tool is an alternative to `cargo
 machete`, and `cargo +nightly udeps`. The probably biggest plus of this tool is
 that most of it doesn't require a nightly compiler (or the `RUSTC_BOOTSTRAP`
 work around to the rust community refusing to publish nightly versions of the
